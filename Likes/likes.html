@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./likes.css">
+</head>
+<body>
+        <!-- Whole Container -->
+    <div id="container">
+        <!-- Navbar -->
+        <div class="navbar">
+            <h1>Network</h1>
+        </div>
+        <h2>Your Feed</h2>
+        <!-- Left Top Box -->
+        <div class="jamesDoeBox">
+            <img src="./avatarIcon.png" class="jamesPic"  alt="James Doe">
+            <a class="addAvatarlink" href="addAvatar">Add an avatar</a>
+            <h3>James Doe</h3>
+        </div>
+        <!-- Right Side Boxes -->
+        <div id="rightSide">
+            <div class="neilMbox">
+                <h4>Neil M</h4>
+                <p class="likeText"><span id="likeOne">0 </span> like(s)</p>
+                <button onclick="addLike('likeOne')">Like</button>
+                <p class="boxText">I just set up this new discord bot, let me<br>know what you all think. <a href="link">link</a></p>
+            </div>
+            <div class="nicoleKbox">
+                <h4>Nicole K</h4>
+                <p class="likeText"><span id="likeTwo">0</span> like(s)</p>
+                <button onclick="addLike('likeTwo')">Like</button>
+                <p class="boxText">Just finished my <a href="link">next comic</a>, check it out.</p>
+            </div>
+            <div class="jimRbox">
+                <h4>Jim R</h4>
+                <p class="likeText"><span id="likeThree">0 </span> like(s)</p>
+                <button onclick="addLike('likeThree')">Like</button>
+                <p class="boxText">I can't stop listening to the <a href="link">new album</a>.<br>Who else is liking it?</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="./likes.js"></script>
+</body>
+</html>

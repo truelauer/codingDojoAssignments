@@ -1,0 +1,138 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+#wholeContainer {
+    margin: auto;
+    width: 1250px;
+}
+/* Top Navbar */
+
+.navbar {
+    background-color: rgb(204, 204, 204);
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 70px;
+    width: 1155px;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: monospace;
+    align-items: center;
+}
+h1 {
+    font-size: 50px;
+    display: flex;
+    font-weight: lighter;
+}
+.searchBar {
+    width: 400px;
+    height: 30px;
+    display: flex;
+    margin-right: 150px;
+    margin-left: 50px;
+    border: solid 3px black;
+    border-radius: 4px;
+}
+.loginButton {
+    background-color: rgb(44, 121, 228);
+    color: white;
+    box-shadow: 5px 5px black;
+    width: 100px;
+    height: 35px;
+    font-size: 25px;
+}
+
+/* Left Side Boxes */
+
+#leftSideBoxes {
+    position: relative;
+    margin-left: 50px;
+    padding-top: 20px;
+    font-family: monospace;
+}
+p {
+    font-size: 20px
+}
+.likesButtons {
+    background-color: rgb(251, 217, 102);
+    box-shadow: 3px 3px;
+    width: 150px;
+    height: 50px;
+    position: relative;
+    bottom: 25px;
+    left: 5px;
+    font-size: 25px;
+}
+
+/* Top Left Box */
+
+.topLeftBox {
+    width: 600px;
+    height: 200px;
+    border: 3px solid black;
+    border-radius: 4px;
+    padding-left: 35px;
+    padding-top: 20px;
+}
+.ninja1 {
+    font-size: 50px;
+    font-weight: lighter;
+}
+.noun {
+    padding-left: 40px;
+    font-size: 25px;
+}
+.definition {
+    font-size: 20px;
+    position: relative;
+    left: 200px;
+    bottom: 45px;
+}
+
+/* Bottom Left Box */
+
+.bottomLeftBox {
+    width: 600px;
+    height: 200px;
+    border: 3px solid black;
+    border-radius: 4px;
+    padding-left: 35px;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+.ninja2 {
+    font-size: 50px;
+    font-weight: lighter;
+}
+.likesButton2 {
+    position: relative;
+    bottom: 50px;
+}
+
+/* Top Right Box */
+
+.topRightBox {
+    width: 465px;
+    height: 140px;
+    border: 3px solid black;
+    border-radius: 4px;
+    padding-left: 20px;
+    padding-top: 20px;
+    position: relative;
+    bottom: 472px;
+    left: 715px
+}
+.rightBoxText {
+    font-size: 30px;
+    position: relative;
+    bottom: 10px;
+}
+.addDefinitionButton {
+    background-color:rgb(147, 196, 125);
+    box-shadow: 3px 3px;
+    width: 445px;
+    height: 50px;
+    position: relative;
+    top: 5px;
+    font-size: 20px;
+}

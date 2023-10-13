@@ -1,0 +1,374 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* Navbar */
+
+#navContainer {
+    display: flex;
+    flex-direction: column;
+    margin: 0px auto;
+    width: 1300px;
+}
+.navbar {
+    display: flex;
+    background-color: black;
+    color: white;
+    height: 80px;
+    width: 1300px;
+    font-family: monospace;
+    align-items: center;
+}
+h1 {
+    margin-left: 150px;
+}
+.navRight {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 75px;
+    width: 550px;
+    font-size: 20px;
+    
+}
+.navWords {
+    display: flex;
+    color: white;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center; 
+}
+.signOut {
+    background-color: rgb(20, 162, 184);
+    color: white;
+    height: 35px;
+    width: 130px;
+    font-size: 20px;
+    font-family: monospace;
+    font-weight: bold;
+    margin-left: 165px;
+}
+
+/* Left Side Profile Box */
+
+.profileContainer {
+    position: relative;
+    flex-direction: column;
+    height: 400px;
+    width: 650px;
+    border-style: solid; 
+    border-color:rgb(205, 205, 205);
+    border-width: 4px;
+    margin-top: 30px;
+    margin-left: 150px;
+    font-family: monospace;
+}
+.blueBar {
+    display: flex;
+    height: 130px;
+    width: 650px;
+    background-color:rgb(20, 162, 184);
+}
+.fullProfile {
+    position: relative;
+    bottom: 70px;
+    margin-left:35px;
+    
+}
+.janePic {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    border: 5px solid rgb(205, 205, 205);
+}
+h2 {
+    font-size: 30px;
+    margin-left: 10px;
+}
+.traits {
+    margin-left: 10px;
+}
+.seattleIcon {
+    display: flex;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 10px;
+}
+.icons {
+    height: 20px;
+    width: 20px;
+}
+.editProfileAndGear {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 10px;
+}
+.editProfile {
+    color: rgb(44, 121, 228)
+}
+.Seattle {
+    margin-left: 10px;
+    font-weight: bold;
+}
+.text {
+    font-size: 20px;
+}
+
+/* Left Side Education Box */
+
+.educationContainer {
+    position: relative;
+    top: 65px;
+    right: 50px;
+    flex-direction: column;
+    height: 180px;
+    width: 650px;
+    border-style: solid; 
+    border-color:rgb(205, 205, 205);
+    border-width: 4px;
+    border-bottom: none;
+    font-family: monospace;
+}
+.greyBar {
+    display: flex;
+    height: 65px;
+    width: 650px;
+    background-color:rgb(51, 51, 51)
+}
+h3 {
+    position: relative;
+    bottom: 45px;
+    color: white;
+    left: 50px;
+}
+.eduDetail {
+    position: relative;
+    padding-top: 0px;
+    padding-bottom: 15px;
+    left: 50px;
+    font-size: 20px;
+}
+.bootcamp {
+    font-weight: bold;
+}
+.dates {
+    color:rgb(102, 102, 102);
+}
+
+/* Right Side Connection Requests */
+
+#rightSide {
+    margin-left: 840px;
+    font-family: monospace;
+}
+.connectionContainer {
+    position: relative;
+    height: 200px;
+    width: 300px;
+    border-style: solid; 
+    border-color:rgb(205, 205, 205);
+    border-width: 4px;
+    bottom: 408px;
+}
+.greyBar2 {
+    display: flex;
+    height: 65px;
+    width: 300px;
+    background-color:rgb(51, 51, 51);
+}
+.Ccircle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: rgb(205, 205, 205);
+    border-radius: 50%;
+    width: 24px;
+    height: 20px;
+    bottom: 42px;
+    left: 25px;
+    font-size: 18px;
+}
+h4 {
+    position: relative;
+    bottom: 65px;
+    left: 60px;
+    font-size: 20px;
+    color: white
+}
+.toddErequest {
+    display: flex;
+    position: relative;
+    align-items: center;
+    left: 20px;
+    bottom: 25px;
+    padding-bottom: 15px;
+}
+.toddPic {
+    height: 40px;
+    width: 40px;
+    border: solid 2.5px black;
+    border-radius: 50%;
+}
+.toddE {
+    margin-left: 20px;
+    font-size: 20px;
+}
+.requestButtons {
+    display: flex;
+    position: relative;
+    left: 60px;
+    height: 35px;
+    width: 35px; 
+}
+.accept {
+    margin-right: 7px;
+}
+
+.philKrequest {
+    display: flex;
+    position: relative;
+    align-items: center;
+    left: 20px;
+    bottom: 25px;
+}
+.philPic {
+    height: 40px;
+    width: 40px;
+    border: solid 2.5px black;
+    border-radius: 50%;
+}
+.philK {
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+/* Right Side Your Connections */
+
+.yCcontainer {
+    position: relative;
+    margin-top: 20px;
+    right: 4px;
+    height: 370px;
+    width: 300px;
+    border-style: solid; 
+    border-color:rgb(205, 205, 205);
+    border-width: 4px;
+    
+}
+.greyBar3 {
+    display: flex;
+    height: 65px;
+    width: 300px;
+    background-color:rgb(51, 51, 51);
+}
+.yCcircle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: rgb(205, 205, 205);
+    border-radius: 50%;
+    width: 50px;
+    height: 25px;
+    bottom: 42px;
+    left: 25px;
+    font-size: 18px;
+}
+h5 {
+    position: relative;
+    bottom: 65px;
+    left: 90px;
+    font-size: 20px;
+    color: white
+}
+.adrienConnection {
+    display: flex;
+    position: relative;
+    align-items: center;
+    left: 20px;
+    bottom: 25px;
+    padding-bottom: 15px;
+}
+.adrienPic {
+    height: 40px;
+    width: 40px;
+    border: solid 2.5px black;
+    border-radius: 50%;
+}
+.adrienD {
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.anneConnection {
+    display: flex;
+    position: relative;
+    align-items: center;
+    left: 20px;
+    bottom: 25px;
+}
+.annePic {
+    height: 40px;
+    width: 40px;
+    border: solid 2.5px black;
+    border-radius: 50%;
+}
+.anneJ {
+    margin-left: 20px;
+    font-size: 20px;
+}
+.alayneConnection {
+    display: flex;
+    position: relative;
+    align-items: center;
+    left: 20px;
+    bottom: 170px;
+    padding-bottom: 15px;
+}
+.alaynePic {
+    height: 40px;
+    width: 40px;
+    border: solid 2.5px black;
+    border-radius: 50%;
+
+}
+.alayneT {
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.arryConnection {
+    display: flex;
+    position: relative;
+    align-items: center;
+    left: 20px;
+    bottom: 25px;
+    bottom: 170px;
+}
+.arryPic {
+    height: 40px;
+    width: 40px;
+    border: solid 2.5px black;
+    border-radius: 50%;
+}
+.arryY {
+    margin-left: 20px;
+    font-size: 20px;
+}
+hr {
+    position: relative;
+    bottom: 150px;
+    border-style: solid; 
+    color:rgb(205, 205, 205);
+    border-width: 2px;
+    width: 300px;
+}
+.viewMore {
+    position: relative;
+    bottom: 143px;
+    left: 20px;
+    color: rgb(44, 121, 228);
+    font-size: 20px;
+}

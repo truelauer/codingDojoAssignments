@@ -1,0 +1,18 @@
+h1{
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+h2{
+    background-color: purple;
+    color: white;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+h3{
+    background-color: rgb(80, 224, 243);
+    color: black;
+    text-align: right;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: underline;
+}

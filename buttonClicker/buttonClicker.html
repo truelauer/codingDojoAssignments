@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./buttonClicker.css">
+</head>
+<body>
+
+    <!-- Top Navbar -->
+
+<div id="wholeContainer">
+    <div class="navbar">
+        <h1>Dojonary</h1>
+        <form action="#"></form>
+        <input class="searchBar"  type="text" placeholder="Search">
+        <button class="loginButton" onclick="changeText(this)">Login</button>
+    </div>
+
+    <!-- Left Side Boxes -->
+
+    <div id="leftSideBoxes">
+
+    <!-- Top Left Box -->
+
+        <div class="topLeftBox">
+            <h2 class="ninja1">ninja</h2>
+            <p class="noun"><i>noun</i></p>
+            <p>Plural: <i>ninjas</i></p>
+            <p class="definition">A practitioner skilled in the <br><a href="Japanese">Japanese</a>  art of <a href="ninjutsu">ninjutsu<br></a></p>
+            <button class="likesButtons" onclick="alert('Ninja was liked!')">13 likes</button>
+        </div>
+    
+    <!-- Bottom Left Box -->
+
+        <div class="bottomLeftBox">
+            <h2 class="ninja2">ninja</h2>
+            <p class="noun"><i>noun</i></p>
+            <p>Plural: <i>ninjas</i></p>
+            <p class="definition"> A <a href="Programmer">Programmer</a> who breaks<br> down problems with <a href="zen">zen</a>-like <br>focus</p>
+            <button class="likesButtons likesButton2" onclick="alert('Ninja was liked!')">37 likes</button>
+        </div>
+    </div>
+    
+    <!-- Right Side Box -->
+
+    <div class="topRightBox">
+        <p class="rightBoxText"> Dojonary is<br> defined by <b>YOU</b></p>
+        <span id="topRightbutton"></span>
+        <button class="addDefinitionButton" onclick="removeButton()"><b>Add Definition</b></button>
+    </div>
+    
+    <script src="./buttonClicker.js"></script>
+</div>
+</body>
+</html>
