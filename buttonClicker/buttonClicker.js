@@ -15,3 +15,4 @@ function removeButton(remove){
     var el = document.querySelector(".addDefinitionButton")
     el.style.display = "none"
 }
+// gitHubTest
